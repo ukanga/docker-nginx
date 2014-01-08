@@ -2,8 +2,6 @@ FROM stackbrew/ubuntu
 
 MAINTAINER Ukang'a Dickson
 
-VOLUME ["/data"]
-
 RUN apt-get update
 RUN apt-get install -y nano wget dialog net-tools
 RUN apt-get install -y nginx
